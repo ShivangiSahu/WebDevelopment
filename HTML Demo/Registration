@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<H1>
+	Employee Experience Details
+</H1>
+<div id="reg-form">
+	<form>
+		<label for="first-name">First Name:</label>
+		<input type="text" name="first-name" placeholder="enter your first name" required>
+	</form>
+</div>
+</body>
+</html>
