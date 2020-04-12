@@ -67,6 +67,6 @@ i++;
 }
 while(i<5);
 
- for (let i = 0; i<shopping.len(); i++) {
+ for (let i = 0; i<shopping.length; i++) {
  	console.log(shopping[i]);
  }
