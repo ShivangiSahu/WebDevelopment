@@ -1,0 +1,14 @@
+div{
+	background: purple;
+	color: white;
+}
+
+#reg-form {
+	font-family: "verdana" , "gill sans";
+	color: black;
+}
+
+.gender{
+	color: white;
+	background: steelblue;
+}
