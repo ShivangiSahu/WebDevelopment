@@ -28,3 +28,45 @@ console.log(shopping);
  };
  console.log(pen);
  console.log(pen.color);
+ let shivangi = {
+ 	age: '27',
+ 	company:'wipro',
+ 	skills: ['appium', 'selenium','java', 'javascript']
+ };
+
+ console.log(shivangi.skills[3]);
+
+ function addition() {
+ 	let sum = number[2]+number[1];
+ 	console.log(sum);
+ }
+
+ addition();
+
+ function product(a , b) {
+ 	return a*b;
+ }
+
+ console.log(product(number[0],number[2]));
+
+ if (number[1] == 4 ) {
+ 	console.log('number is correct');
+ }
+ else{
+ 	console.log('wrong');
+ }
+ let i = 0;
+while(i<5) {
+console.log(i);
+i++; 
+}
+
+do{
+	console.log(i);
+i++;
+}
+while(i<5);
+
+ for (let i = 0; i<shopping.len(); i++) {
+ 	console.log(shopping[i]);
+ }
