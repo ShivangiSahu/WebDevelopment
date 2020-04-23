@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>jQuery Demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
@@ -20,10 +21,53 @@ window.onload = function()
     }
 }
 </script>
-<ul>
-	<li>Golden Retriver <a href="google.com">Google</a></li>
-	<li>Syberian Husky</li>
-	<li>Boxer</li>
-</ul>
+<div class="dogs">
+
+	<img src="dog1.jpg">
+	<img src="dog2.jpg">
+	<img src="dog3.jpg">
+
+</div>
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+	alert("Value:"+ $("#sometext").val());
+});
+});
+</script>
+
+<script>
+	$(document).ready(function(){
+		$("#hide").click(function(){
+			$("img").hide();
+		});
+		$("#show").click(function(){
+			$("img").show();
+		});
+		$("#fadeIn").click(function(){
+			$("#end").fadeOut();
+			$("#end").fadeIn();
+		});
+		$("button").click(function(){
+			$("img").addClass("styleclass");
+
+		});
+
+	});
+
+
+</script>
+
+<style type="text/css">
+	.styleclass{
+		border: 5px solid green;
+	}
+</style>
+<input type="text" id="sometext" value=" ">
+<button>Submit</button></br>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="fadeIn">FadeIn</button>
+<label id="end">The End</label>
 </body>
 </html>
